@@ -74,6 +74,28 @@ namespace App\Models{
 
 namespace App\Models{
 /**
+ * App\Models\JobType
+ *
+ * @property int $id
+ * @property string $emoji
+ * @property string $name
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @method static \Database\Factories\JobTypeFactory factory(...$parameters)
+ * @method static \Illuminate\Database\Eloquent\Builder|JobType newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|JobType newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|JobType query()
+ * @method static \Illuminate\Database\Eloquent\Builder|JobType whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|JobType whereEmoji($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|JobType whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|JobType whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|JobType whereUpdatedAt($value)
+ */
+	class JobType extends \Eloquent {}
+}
+
+namespace App\Models{
+/**
  * App\Models\User
  *
  * @property int $id
@@ -81,6 +103,7 @@ namespace App\Models{
  * @property string $email
  * @property \Illuminate\Support\Carbon|null $email_verified_at
  * @property string $password
+ * @property bool $is_admin
  * @property string|null $remember_token
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
@@ -98,6 +121,7 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|User whereEmail($value)
  * @method static \Illuminate\Database\Eloquent\Builder|User whereEmailVerifiedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|User whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereIsAdmin($value)
  * @method static \Illuminate\Database\Eloquent\Builder|User whereName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|User wherePassword($value)
  * @method static \Illuminate\Database\Eloquent\Builder|User whereRememberToken($value)
