@@ -22,6 +22,7 @@ class User extends Authenticatable implements MustVerifyEmail
         'name',
         'email',
         'password',
+        'is_admin',
     ];
 
     /**
@@ -41,10 +42,16 @@ class User extends Authenticatable implements MustVerifyEmail
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'is_admin' => 'boolean',
     ];
 
     public function companies(): HasManyThrough
     {
         return $this->hasManyThrough(Company::class, CompanyUsers::class);
+    }
+
+    public function isAdministrator(): bool
+    {
+        return $this->is_admin;
     }
 }
