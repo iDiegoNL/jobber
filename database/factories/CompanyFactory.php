@@ -14,20 +14,6 @@ use Illuminate\Support\Str;
 class CompanyFactory extends Factory
 {
     /**
-     * Configure the model factory.
-     *
-     * @return $this
-     */
-    public function configure(): static
-    {
-        return $this->afterCreating(function (Company $company) {
-            $company->companyUsers()->create([
-                'user_id' => $company->owner_id,
-            ]);
-        });
-    }
-
-    /**
      * Define the model's default state.
      *
      * @return array<string, mixed>

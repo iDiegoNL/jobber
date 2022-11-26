@@ -11,6 +11,11 @@ namespace PHPSTORM_META {
     */
     override(new \Illuminate\Contracts\Container\Container, map([
         '' => '@',
+            'BladeUI\Icons\Factory' => \BladeUI\Icons\Factory::class,
+            'BladeUI\Icons\IconsManifest' => \BladeUI\Icons\IconsManifest::class,
+            'Filament\Http\Responses\Auth\Contracts\LoginResponse' => \Filament\Http\Responses\Auth\LoginResponse::class,
+            'Filament\Http\Responses\Auth\Contracts\LogoutResponse' => \Filament\Http\Responses\Auth\LogoutResponse::class,
+            'HtmlSanitizer\SanitizerInterface' => \HtmlSanitizer\Sanitizer::class,
             'Illuminate\Auth\Console\ClearResetsCommand' => \Illuminate\Auth\Console\ClearResetsCommand::class,
             'Illuminate\Auth\Middleware\RequirePassword' => \Illuminate\Auth\Middleware\RequirePassword::class,
             'Illuminate\Broadcasting\BroadcastManager' => \Illuminate\Broadcasting\BroadcastManager::class,
@@ -187,6 +192,7 @@ namespace PHPSTORM_META {
             'db.transactions' => \Illuminate\Database\DatabaseTransactionsManager::class,
             'encrypter' => \Illuminate\Encryption\Encrypter::class,
             'events' => \Illuminate\Events\Dispatcher::class,
+            'filament' => \Filament\FilamentManager::class,
             'files' => \Illuminate\Filesystem\Filesystem::class,
             'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
             'filesystem.cloud' => \Illuminate\Filesystem\FilesystemAdapter::class,
@@ -222,6 +228,11 @@ namespace PHPSTORM_META {
         ]));
     override(\Illuminate\Container\Container::makeWith(0), map([
         '' => '@',
+            'BladeUI\Icons\Factory' => \BladeUI\Icons\Factory::class,
+            'BladeUI\Icons\IconsManifest' => \BladeUI\Icons\IconsManifest::class,
+            'Filament\Http\Responses\Auth\Contracts\LoginResponse' => \Filament\Http\Responses\Auth\LoginResponse::class,
+            'Filament\Http\Responses\Auth\Contracts\LogoutResponse' => \Filament\Http\Responses\Auth\LogoutResponse::class,
+            'HtmlSanitizer\SanitizerInterface' => \HtmlSanitizer\Sanitizer::class,
             'Illuminate\Auth\Console\ClearResetsCommand' => \Illuminate\Auth\Console\ClearResetsCommand::class,
             'Illuminate\Auth\Middleware\RequirePassword' => \Illuminate\Auth\Middleware\RequirePassword::class,
             'Illuminate\Broadcasting\BroadcastManager' => \Illuminate\Broadcasting\BroadcastManager::class,
@@ -398,6 +409,7 @@ namespace PHPSTORM_META {
             'db.transactions' => \Illuminate\Database\DatabaseTransactionsManager::class,
             'encrypter' => \Illuminate\Encryption\Encrypter::class,
             'events' => \Illuminate\Events\Dispatcher::class,
+            'filament' => \Filament\FilamentManager::class,
             'files' => \Illuminate\Filesystem\Filesystem::class,
             'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
             'filesystem.cloud' => \Illuminate\Filesystem\FilesystemAdapter::class,
@@ -433,6 +445,11 @@ namespace PHPSTORM_META {
         ]));
     override(\Illuminate\Contracts\Container\Container::get(0), map([
         '' => '@',
+            'BladeUI\Icons\Factory' => \BladeUI\Icons\Factory::class,
+            'BladeUI\Icons\IconsManifest' => \BladeUI\Icons\IconsManifest::class,
+            'Filament\Http\Responses\Auth\Contracts\LoginResponse' => \Filament\Http\Responses\Auth\LoginResponse::class,
+            'Filament\Http\Responses\Auth\Contracts\LogoutResponse' => \Filament\Http\Responses\Auth\LogoutResponse::class,
+            'HtmlSanitizer\SanitizerInterface' => \HtmlSanitizer\Sanitizer::class,
             'Illuminate\Auth\Console\ClearResetsCommand' => \Illuminate\Auth\Console\ClearResetsCommand::class,
             'Illuminate\Auth\Middleware\RequirePassword' => \Illuminate\Auth\Middleware\RequirePassword::class,
             'Illuminate\Broadcasting\BroadcastManager' => \Illuminate\Broadcasting\BroadcastManager::class,
@@ -609,6 +626,7 @@ namespace PHPSTORM_META {
             'db.transactions' => \Illuminate\Database\DatabaseTransactionsManager::class,
             'encrypter' => \Illuminate\Encryption\Encrypter::class,
             'events' => \Illuminate\Events\Dispatcher::class,
+            'filament' => \Filament\FilamentManager::class,
             'files' => \Illuminate\Filesystem\Filesystem::class,
             'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
             'filesystem.cloud' => \Illuminate\Filesystem\FilesystemAdapter::class,
@@ -644,6 +662,11 @@ namespace PHPSTORM_META {
         ]));
     override(\Illuminate\Contracts\Container\Container::make(0), map([
         '' => '@',
+            'BladeUI\Icons\Factory' => \BladeUI\Icons\Factory::class,
+            'BladeUI\Icons\IconsManifest' => \BladeUI\Icons\IconsManifest::class,
+            'Filament\Http\Responses\Auth\Contracts\LoginResponse' => \Filament\Http\Responses\Auth\LoginResponse::class,
+            'Filament\Http\Responses\Auth\Contracts\LogoutResponse' => \Filament\Http\Responses\Auth\LogoutResponse::class,
+            'HtmlSanitizer\SanitizerInterface' => \HtmlSanitizer\Sanitizer::class,
             'Illuminate\Auth\Console\ClearResetsCommand' => \Illuminate\Auth\Console\ClearResetsCommand::class,
             'Illuminate\Auth\Middleware\RequirePassword' => \Illuminate\Auth\Middleware\RequirePassword::class,
             'Illuminate\Broadcasting\BroadcastManager' => \Illuminate\Broadcasting\BroadcastManager::class,
@@ -820,6 +843,7 @@ namespace PHPSTORM_META {
             'db.transactions' => \Illuminate\Database\DatabaseTransactionsManager::class,
             'encrypter' => \Illuminate\Encryption\Encrypter::class,
             'events' => \Illuminate\Events\Dispatcher::class,
+            'filament' => \Filament\FilamentManager::class,
             'files' => \Illuminate\Filesystem\Filesystem::class,
             'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
             'filesystem.cloud' => \Illuminate\Filesystem\FilesystemAdapter::class,
@@ -855,6 +879,11 @@ namespace PHPSTORM_META {
         ]));
     override(\Illuminate\Contracts\Container\Container::makeWith(0), map([
         '' => '@',
+            'BladeUI\Icons\Factory' => \BladeUI\Icons\Factory::class,
+            'BladeUI\Icons\IconsManifest' => \BladeUI\Icons\IconsManifest::class,
+            'Filament\Http\Responses\Auth\Contracts\LoginResponse' => \Filament\Http\Responses\Auth\LoginResponse::class,
+            'Filament\Http\Responses\Auth\Contracts\LogoutResponse' => \Filament\Http\Responses\Auth\LogoutResponse::class,
+            'HtmlSanitizer\SanitizerInterface' => \HtmlSanitizer\Sanitizer::class,
             'Illuminate\Auth\Console\ClearResetsCommand' => \Illuminate\Auth\Console\ClearResetsCommand::class,
             'Illuminate\Auth\Middleware\RequirePassword' => \Illuminate\Auth\Middleware\RequirePassword::class,
             'Illuminate\Broadcasting\BroadcastManager' => \Illuminate\Broadcasting\BroadcastManager::class,
@@ -1031,6 +1060,7 @@ namespace PHPSTORM_META {
             'db.transactions' => \Illuminate\Database\DatabaseTransactionsManager::class,
             'encrypter' => \Illuminate\Encryption\Encrypter::class,
             'events' => \Illuminate\Events\Dispatcher::class,
+            'filament' => \Filament\FilamentManager::class,
             'files' => \Illuminate\Filesystem\Filesystem::class,
             'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
             'filesystem.cloud' => \Illuminate\Filesystem\FilesystemAdapter::class,
@@ -1066,6 +1096,11 @@ namespace PHPSTORM_META {
         ]));
     override(\App::get(0), map([
         '' => '@',
+            'BladeUI\Icons\Factory' => \BladeUI\Icons\Factory::class,
+            'BladeUI\Icons\IconsManifest' => \BladeUI\Icons\IconsManifest::class,
+            'Filament\Http\Responses\Auth\Contracts\LoginResponse' => \Filament\Http\Responses\Auth\LoginResponse::class,
+            'Filament\Http\Responses\Auth\Contracts\LogoutResponse' => \Filament\Http\Responses\Auth\LogoutResponse::class,
+            'HtmlSanitizer\SanitizerInterface' => \HtmlSanitizer\Sanitizer::class,
             'Illuminate\Auth\Console\ClearResetsCommand' => \Illuminate\Auth\Console\ClearResetsCommand::class,
             'Illuminate\Auth\Middleware\RequirePassword' => \Illuminate\Auth\Middleware\RequirePassword::class,
             'Illuminate\Broadcasting\BroadcastManager' => \Illuminate\Broadcasting\BroadcastManager::class,
@@ -1242,6 +1277,7 @@ namespace PHPSTORM_META {
             'db.transactions' => \Illuminate\Database\DatabaseTransactionsManager::class,
             'encrypter' => \Illuminate\Encryption\Encrypter::class,
             'events' => \Illuminate\Events\Dispatcher::class,
+            'filament' => \Filament\FilamentManager::class,
             'files' => \Illuminate\Filesystem\Filesystem::class,
             'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
             'filesystem.cloud' => \Illuminate\Filesystem\FilesystemAdapter::class,
@@ -1277,6 +1313,11 @@ namespace PHPSTORM_META {
         ]));
     override(\App::make(0), map([
         '' => '@',
+            'BladeUI\Icons\Factory' => \BladeUI\Icons\Factory::class,
+            'BladeUI\Icons\IconsManifest' => \BladeUI\Icons\IconsManifest::class,
+            'Filament\Http\Responses\Auth\Contracts\LoginResponse' => \Filament\Http\Responses\Auth\LoginResponse::class,
+            'Filament\Http\Responses\Auth\Contracts\LogoutResponse' => \Filament\Http\Responses\Auth\LogoutResponse::class,
+            'HtmlSanitizer\SanitizerInterface' => \HtmlSanitizer\Sanitizer::class,
             'Illuminate\Auth\Console\ClearResetsCommand' => \Illuminate\Auth\Console\ClearResetsCommand::class,
             'Illuminate\Auth\Middleware\RequirePassword' => \Illuminate\Auth\Middleware\RequirePassword::class,
             'Illuminate\Broadcasting\BroadcastManager' => \Illuminate\Broadcasting\BroadcastManager::class,
@@ -1453,6 +1494,7 @@ namespace PHPSTORM_META {
             'db.transactions' => \Illuminate\Database\DatabaseTransactionsManager::class,
             'encrypter' => \Illuminate\Encryption\Encrypter::class,
             'events' => \Illuminate\Events\Dispatcher::class,
+            'filament' => \Filament\FilamentManager::class,
             'files' => \Illuminate\Filesystem\Filesystem::class,
             'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
             'filesystem.cloud' => \Illuminate\Filesystem\FilesystemAdapter::class,
@@ -1488,6 +1530,11 @@ namespace PHPSTORM_META {
         ]));
     override(\App::makeWith(0), map([
         '' => '@',
+            'BladeUI\Icons\Factory' => \BladeUI\Icons\Factory::class,
+            'BladeUI\Icons\IconsManifest' => \BladeUI\Icons\IconsManifest::class,
+            'Filament\Http\Responses\Auth\Contracts\LoginResponse' => \Filament\Http\Responses\Auth\LoginResponse::class,
+            'Filament\Http\Responses\Auth\Contracts\LogoutResponse' => \Filament\Http\Responses\Auth\LogoutResponse::class,
+            'HtmlSanitizer\SanitizerInterface' => \HtmlSanitizer\Sanitizer::class,
             'Illuminate\Auth\Console\ClearResetsCommand' => \Illuminate\Auth\Console\ClearResetsCommand::class,
             'Illuminate\Auth\Middleware\RequirePassword' => \Illuminate\Auth\Middleware\RequirePassword::class,
             'Illuminate\Broadcasting\BroadcastManager' => \Illuminate\Broadcasting\BroadcastManager::class,
@@ -1664,6 +1711,7 @@ namespace PHPSTORM_META {
             'db.transactions' => \Illuminate\Database\DatabaseTransactionsManager::class,
             'encrypter' => \Illuminate\Encryption\Encrypter::class,
             'events' => \Illuminate\Events\Dispatcher::class,
+            'filament' => \Filament\FilamentManager::class,
             'files' => \Illuminate\Filesystem\Filesystem::class,
             'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
             'filesystem.cloud' => \Illuminate\Filesystem\FilesystemAdapter::class,
@@ -1699,6 +1747,11 @@ namespace PHPSTORM_META {
         ]));
     override(\app(0), map([
         '' => '@',
+            'BladeUI\Icons\Factory' => \BladeUI\Icons\Factory::class,
+            'BladeUI\Icons\IconsManifest' => \BladeUI\Icons\IconsManifest::class,
+            'Filament\Http\Responses\Auth\Contracts\LoginResponse' => \Filament\Http\Responses\Auth\LoginResponse::class,
+            'Filament\Http\Responses\Auth\Contracts\LogoutResponse' => \Filament\Http\Responses\Auth\LogoutResponse::class,
+            'HtmlSanitizer\SanitizerInterface' => \HtmlSanitizer\Sanitizer::class,
             'Illuminate\Auth\Console\ClearResetsCommand' => \Illuminate\Auth\Console\ClearResetsCommand::class,
             'Illuminate\Auth\Middleware\RequirePassword' => \Illuminate\Auth\Middleware\RequirePassword::class,
             'Illuminate\Broadcasting\BroadcastManager' => \Illuminate\Broadcasting\BroadcastManager::class,
@@ -1875,6 +1928,7 @@ namespace PHPSTORM_META {
             'db.transactions' => \Illuminate\Database\DatabaseTransactionsManager::class,
             'encrypter' => \Illuminate\Encryption\Encrypter::class,
             'events' => \Illuminate\Events\Dispatcher::class,
+            'filament' => \Filament\FilamentManager::class,
             'files' => \Illuminate\Filesystem\Filesystem::class,
             'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
             'filesystem.cloud' => \Illuminate\Filesystem\FilesystemAdapter::class,
@@ -1910,6 +1964,11 @@ namespace PHPSTORM_META {
         ]));
     override(\resolve(0), map([
         '' => '@',
+            'BladeUI\Icons\Factory' => \BladeUI\Icons\Factory::class,
+            'BladeUI\Icons\IconsManifest' => \BladeUI\Icons\IconsManifest::class,
+            'Filament\Http\Responses\Auth\Contracts\LoginResponse' => \Filament\Http\Responses\Auth\LoginResponse::class,
+            'Filament\Http\Responses\Auth\Contracts\LogoutResponse' => \Filament\Http\Responses\Auth\LogoutResponse::class,
+            'HtmlSanitizer\SanitizerInterface' => \HtmlSanitizer\Sanitizer::class,
             'Illuminate\Auth\Console\ClearResetsCommand' => \Illuminate\Auth\Console\ClearResetsCommand::class,
             'Illuminate\Auth\Middleware\RequirePassword' => \Illuminate\Auth\Middleware\RequirePassword::class,
             'Illuminate\Broadcasting\BroadcastManager' => \Illuminate\Broadcasting\BroadcastManager::class,
@@ -2086,6 +2145,7 @@ namespace PHPSTORM_META {
             'db.transactions' => \Illuminate\Database\DatabaseTransactionsManager::class,
             'encrypter' => \Illuminate\Encryption\Encrypter::class,
             'events' => \Illuminate\Events\Dispatcher::class,
+            'filament' => \Filament\FilamentManager::class,
             'files' => \Illuminate\Filesystem\Filesystem::class,
             'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
             'filesystem.cloud' => \Illuminate\Filesystem\FilesystemAdapter::class,
@@ -2121,6 +2181,11 @@ namespace PHPSTORM_META {
         ]));
     override(\Psr\Container\ContainerInterface::get(0), map([
         '' => '@',
+            'BladeUI\Icons\Factory' => \BladeUI\Icons\Factory::class,
+            'BladeUI\Icons\IconsManifest' => \BladeUI\Icons\IconsManifest::class,
+            'Filament\Http\Responses\Auth\Contracts\LoginResponse' => \Filament\Http\Responses\Auth\LoginResponse::class,
+            'Filament\Http\Responses\Auth\Contracts\LogoutResponse' => \Filament\Http\Responses\Auth\LogoutResponse::class,
+            'HtmlSanitizer\SanitizerInterface' => \HtmlSanitizer\Sanitizer::class,
             'Illuminate\Auth\Console\ClearResetsCommand' => \Illuminate\Auth\Console\ClearResetsCommand::class,
             'Illuminate\Auth\Middleware\RequirePassword' => \Illuminate\Auth\Middleware\RequirePassword::class,
             'Illuminate\Broadcasting\BroadcastManager' => \Illuminate\Broadcasting\BroadcastManager::class,
@@ -2297,6 +2362,7 @@ namespace PHPSTORM_META {
             'db.transactions' => \Illuminate\Database\DatabaseTransactionsManager::class,
             'encrypter' => \Illuminate\Encryption\Encrypter::class,
             'events' => \Illuminate\Events\Dispatcher::class,
+            'filament' => \Filament\FilamentManager::class,
             'files' => \Illuminate\Filesystem\Filesystem::class,
             'filesystem' => \Illuminate\Filesystem\FilesystemManager::class,
             'filesystem.cloud' => \Illuminate\Filesystem\FilesystemAdapter::class,

@@ -7,6 +7,11 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class CompanyUsers extends Model
 {
+    protected $fillable = [
+        'user_id',
+        'company_id',
+    ];
+
     public function company(): BelongsTo
     {
         return $this->belongsTo(Company::class);

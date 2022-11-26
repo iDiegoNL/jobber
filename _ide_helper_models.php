@@ -21,13 +21,15 @@ namespace App\Models{
  * @property string $founded_in
  * @property string $country
  * @property string|null $website
- * @property int $employee_count
+ * @property \App\Enums\CompanyEmployeeCount $employee_count
  * @property int $owner_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\CompanyUsers[] $companyUsers
  * @property-read int|null $company_users_count
  * @property-read \App\Models\User $owner
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\User[] $users
+ * @property-read int|null $users_count
  * @method static \Database\Factories\CompanyFactory factory(...$parameters)
  * @method static \Illuminate\Database\Eloquent\Builder|Company newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Company newQuery()
