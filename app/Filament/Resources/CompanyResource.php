@@ -33,6 +33,8 @@ class CompanyResource extends Resource
                             fieldTitle: 'name',
                             fieldSlug: 'slug',
                             urlPath: '/companies/',
+                            titleRules: ['required', 'max:255'],
+                            slugRules: ['required', 'max:255'],
                         ),
                         Forms\Components\MarkdownEditor::make('description')
                             ->maxLength(255)
@@ -55,7 +57,8 @@ class CompanyResource extends Resource
                     ->required(),
                 Forms\Components\TextInput::make('website')
                     ->label('Website')
-                    ->rules(['url', 'max:255']),
+                    ->url()
+                    ->maxLength(255),
                 Forms\Components\Select::make('employee_count')
                     ->required()
                     ->options(CompanyEmployeeCount::optionsWithDescription()),
